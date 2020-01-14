@@ -1,4 +1,4 @@
-import React from './react'
+import React from 'react'
 
 const Greeting = props => {
   const r = Math.floor(Math.random() * 3)
@@ -15,7 +15,7 @@ class App extends React.Component {
     render () {
         return (
             <div>
-                <Greething />
+                <Greeting />
             </div>
         )
     }
