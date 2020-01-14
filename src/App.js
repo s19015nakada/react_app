@@ -1,4 +1,17 @@
-import React from './react'
+import React from 'react'
+
+const TitleAndImg = props => {
+  const title = '書道'
+  const imgUrl = 'http://uta.pw/shodou/img/28/214.png'
+  return (
+    <div>
+      <h1>{title}</h1>
+      <p>
+        <img src={imgUrl} />
+      </p>
+    </div>
+  )
+}
 
 class App extends React.Component {
     constructor(props) {
@@ -6,10 +19,7 @@ class App extends React.Component {
         this.state = {}
     }
     render () {
-        return (
-            <div />
-
-        )
+        return <TitleAndImg />
     }
 }
 
