@@ -1,4 +1,5 @@
-import React from './react'
+import React from 'react'
+import './App.css'
 
 class App extends React.Component {
     constructor(props) {
@@ -7,8 +8,9 @@ class App extends React.Component {
     }
     render () {
         return (
-            <div />
-
+             <div className='APP'>
+        <h2>塔を立てる時は、まず座って費用を計算しよう</h2>
+      </div>
         )
     }
 }
